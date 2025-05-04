@@ -1,0 +1,9 @@
+{
+  "software_popularities": { "PX4": 0 },
+  "sim_popularities": { "Gazebo": 0 },
+  "uav_software_popularities": { "PX4": 0 },
+  "uav_sim_popularities": { "Gazebo": 0 },
+  "soft_sim_distributions": {
+    "PX4": { "Gazebo": 0 }
+  }
+}
