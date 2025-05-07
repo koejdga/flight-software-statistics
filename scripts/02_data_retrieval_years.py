@@ -55,10 +55,10 @@ def retrieve_years_data(years_range: tuple[int, int] = None):
 
 parser = argparse.ArgumentParser(description="Years range")
 parser.add_argument(
-    "--from_year", type=int, help="From which year to search (inclusively)"
+    "--from-year", type=int, help="From which year to search (inclusively)"
 )
 parser.add_argument(
-    "--to_year", type=int, help="Till which year to search (inclusively)"
+    "--to-year", type=int, help="Till which year to search (inclusively)"
 )
 args = parser.parse_args()
 

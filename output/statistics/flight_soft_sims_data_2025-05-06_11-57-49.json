@@ -1,0 +1,14 @@
+{
+  "from": "Semantic Scholar",
+  "data": {
+    "software_popularities": {
+      "PX4": 415
+    },
+    "sim_popularities": {},
+    "uav_software_popularities": {},
+    "uav_sim_popularities": {},
+    "soft_sim_distributions": {
+      "PX4": {}
+    }
+  }
+}

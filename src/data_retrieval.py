@@ -78,7 +78,7 @@ def get_results_amount(query: str, year: int = None):
     if from_semantic_scholar:
         return get_results_amount_from_semantic_scholar(query, year)
     else:
-        return get_results_amount_from_google_scholar(query, (year, year))
+        return get_results_amount_from_google_scholar(query, year)
 
 
 def add_popularity(name: str, is_software: bool, data: dict, year: int = None):

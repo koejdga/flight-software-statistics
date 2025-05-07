@@ -162,9 +162,6 @@ def bar_chart_flight_software_by_overall_and_uav_mentions():
     )
 
 
-bar_chart_flight_software_by_overall_and_uav_mentions()
-
-
 def bar_chart_sims_by_overall_and_uav_mentions():
     plt.figure(figsize=(10, 6))
     x = np.arange(len(simulators_df["Simulator"]))
@@ -185,9 +182,6 @@ def bar_chart_sims_by_overall_and_uav_mentions():
     plt.savefig(f"{folder_to_save_plots}/Simulators: Overall vs UAV Mentions.png")
 
 
-bar_chart_sims_by_overall_and_uav_mentions()
-
-
 def stacked_bar_chart_sim_mentions_with_software_breakdown(
     df, title, index, legend_title
 ):
@@ -200,43 +194,6 @@ def stacked_bar_chart_sim_mentions_with_software_breakdown(
     plt.legend(title=legend_title)
     plt.tight_layout()
     plt.savefig(f"{folder_to_save_plots}/{title}.png")
-
-
-software_simulators_df = pd.DataFrame(get_software_in_simulators())
-stacked_bar_chart_sim_mentions_with_software_breakdown(
-    software_simulators_df,
-    "Simulator Mentions with Software Breakdown",
-    index="Simulator",
-    legend_title="Software",
-)
-
-# ABSOLUTE VALUES
-
-software_simulators_df_abs = pd.DataFrame(get_software_in_simulators_absolute())
-stacked_bar_chart_sim_mentions_with_software_breakdown(
-    software_simulators_df_abs,
-    "Simulator Mentions Absolute with Software Breakdown",
-    index="Simulator",
-    legend_title="Software",
-)
-
-simulators_software_df = pd.DataFrame(get_simulators_in_software())
-stacked_bar_chart_sim_mentions_with_software_breakdown(
-    simulators_software_df,
-    "Software Mentions with Simulator Breakdown",
-    index="Software",
-    legend_title="Simulator",
-)
-
-# ABSOLUTE VALUES
-
-simulators_software_df_abs = pd.DataFrame(get_simulators_in_software_absolute())
-stacked_bar_chart_sim_mentions_with_software_breakdown(
-    simulators_software_df_abs,
-    "Software Mentions Absolute with Simulator Breakdown",
-    index="Software",
-    legend_title="Simulator",
-)
 
 
 def heatmap_software_mentions_across_sims(df, title, xlabel, ylabel, rotate_xs=False):
@@ -256,6 +213,44 @@ def heatmap_software_mentions_across_sims(df, title, xlabel, ylabel, rotate_xs=F
     plt.xticks(rotation=45 if rotate_xs else 0)
     plt.savefig(f"{folder_to_save_plots}/{title}.png")
 
+
+bar_chart_flight_software_by_overall_and_uav_mentions()
+
+bar_chart_sims_by_overall_and_uav_mentions()
+
+software_simulators_df = pd.DataFrame(get_software_in_simulators())
+stacked_bar_chart_sim_mentions_with_software_breakdown(
+    software_simulators_df,
+    "Simulator Mentions with Software Breakdown",
+    index="Simulator",
+    legend_title="Software",
+)
+
+# ABSOLUTE
+software_simulators_df_abs = pd.DataFrame(get_software_in_simulators_absolute())
+stacked_bar_chart_sim_mentions_with_software_breakdown(
+    software_simulators_df_abs,
+    "Simulator Mentions Absolute with Software Breakdown",
+    index="Simulator",
+    legend_title="Software",
+)
+
+simulators_software_df = pd.DataFrame(get_simulators_in_software())
+stacked_bar_chart_sim_mentions_with_software_breakdown(
+    simulators_software_df,
+    "Software Mentions with Simulator Breakdown",
+    index="Software",
+    legend_title="Simulator",
+)
+
+# ABSOLUTE
+simulators_software_df_abs = pd.DataFrame(get_simulators_in_software_absolute())
+stacked_bar_chart_sim_mentions_with_software_breakdown(
+    simulators_software_df_abs,
+    "Software Mentions Absolute with Simulator Breakdown",
+    index="Software",
+    legend_title="Simulator",
+)
 
 heatmap_software_mentions_across_sims(
     simulators_software_df,

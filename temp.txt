@@ -1,0 +1,63 @@
+data retrieval
+1. semantic scholar -- done
+2. google scholar -- 429, but i have something
+3. by years -- done
+
+visualization
+1. works nice
+2. years -- not done at all
+
+text representation
+1. i guess doesn't work, i don't know
+
+
+one might want to run 01_data_retrieval periodically, to get new results
+at the same time running 02_data_retrieval_by_years is worth it once because the amount of papers from previous years is expected to be constant and not to change
+
+i want to get data by years from 2000 to 2025
+data: the same as in general but without pairings
+
+20 requests for one year
+
+graph with sims
+25*20=500
+
+can i use actual range structure from python intead of years_range tuple?
+
+
+[
+    "PX4",
+    "ArduPilot",
+    "BetaFlight",
+    "INAV"
+]
+
+[
+  "Gazebo",
+  "Flightmare",
+  "AirSim",
+  "Isaac Sim",
+  "Microsoft AirSim",
+  "NVIDIA Isaac Sim"
+]
+
+print statement that there are years 2020, 2022-2024 (example)
+compare google scholar and semantic scholar results
+maybe add fields "format": "total" | "years"
+
+
+years bar chart for separate things
+for sim with and without uav word
+graphs by years with all sims or all soft together
+by years for one sim with google and with semantic
+
+
+
+
+
+use scraper function
+in years script
+
+I need total from semantic scholar I guess
+I can add up stuff from the file by years maybe
+
