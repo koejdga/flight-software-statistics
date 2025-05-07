@@ -1,0 +1,785 @@
+{
+  "from": "Semantic Scholar",
+  "data": {
+    "2000": {
+      "software_popularities": {
+        "PX4": 1,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 0
+      },
+      "sim_popularities": {
+        "Gazebo": 2,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 5044,
+        "Microsoft AirSim": 1718,
+        "NVIDIA Isaac Sim": 2
+      },
+      "uav_software_popularities": {
+        "PX4": 183,
+        "ArduPilot": 182,
+        "BetaFlight": 182,
+        "INAV": 182
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 184,
+        "Flightmare": 182,
+        "AirSim": 182,
+        "Isaac Sim": 3,
+        "Microsoft AirSim": 0,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2001": {
+      "software_popularities": {
+        "PX4": 1,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 1
+      },
+      "sim_popularities": {
+        "Gazebo": 3,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 5491,
+        "Microsoft AirSim": 1950,
+        "NVIDIA Isaac Sim": 1
+      },
+      "uav_software_popularities": {
+        "PX4": 182,
+        "ArduPilot": 181,
+        "BetaFlight": 181,
+        "INAV": 182
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 184,
+        "Flightmare": 181,
+        "AirSim": 181,
+        "Isaac Sim": 2,
+        "Microsoft AirSim": 1,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2002": {
+      "software_popularities": {
+        "PX4": 4,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 1
+      },
+      "sim_popularities": {
+        "Gazebo": 2,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 5877,
+        "Microsoft AirSim": 2293,
+        "NVIDIA Isaac Sim": 4
+      },
+      "uav_software_popularities": {
+        "PX4": 329,
+        "ArduPilot": 325,
+        "BetaFlight": 325,
+        "INAV": 326
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 327,
+        "Flightmare": 325,
+        "AirSim": 325,
+        "Isaac Sim": 4,
+        "Microsoft AirSim": 0,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2003": {
+      "software_popularities": {
+        "PX4": 1,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 2
+      },
+      "sim_popularities": {
+        "Gazebo": 7,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 6410,
+        "Microsoft AirSim": 2634,
+        "NVIDIA Isaac Sim": 2
+      },
+      "uav_software_popularities": {
+        "PX4": 567,
+        "ArduPilot": 566,
+        "BetaFlight": 566,
+        "INAV": 568
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 573,
+        "Flightmare": 566,
+        "AirSim": 566,
+        "Isaac Sim": 4,
+        "Microsoft AirSim": 0,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2004": {
+      "software_popularities": {
+        "PX4": 1,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 2
+      },
+      "sim_popularities": {
+        "Gazebo": 7,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 7253,
+        "Microsoft AirSim": 2984,
+        "NVIDIA Isaac Sim": 5
+      },
+      "uav_software_popularities": {
+        "PX4": 800,
+        "ArduPilot": 799,
+        "BetaFlight": 799,
+        "INAV": 801
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 806,
+        "Flightmare": 799,
+        "AirSim": 799,
+        "Isaac Sim": 10,
+        "Microsoft AirSim": 1,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2005": {
+      "software_popularities": {
+        "PX4": 3,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 2
+      },
+      "sim_popularities": {
+        "Gazebo": 10,
+        "Flightmare": 0,
+        "AirSim": 1,
+        "Isaac Sim": 7844,
+        "Microsoft AirSim": 3009,
+        "NVIDIA Isaac Sim": 6
+      },
+      "uav_software_popularities": {
+        "PX4": 959,
+        "ArduPilot": 956,
+        "BetaFlight": 956,
+        "INAV": 958
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 966,
+        "Flightmare": 956,
+        "AirSim": 957,
+        "Isaac Sim": 10,
+        "Microsoft AirSim": 2,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2006": {
+      "software_popularities": {
+        "PX4": 0,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 0
+      },
+      "sim_popularities": {
+        "Gazebo": 10,
+        "Flightmare": 0,
+        "AirSim": 1,
+        "Isaac Sim": 7845,
+        "Microsoft AirSim": 3122,
+        "NVIDIA Isaac Sim": 5
+      },
+      "uav_software_popularities": {
+        "PX4": 1133,
+        "ArduPilot": 1133,
+        "BetaFlight": 1133,
+        "INAV": 1133
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 1143,
+        "Flightmare": 1133,
+        "AirSim": 1134,
+        "Isaac Sim": 10,
+        "Microsoft AirSim": 2,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2007": {
+      "software_popularities": {
+        "PX4": 1,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 3
+      },
+      "sim_popularities": {
+        "Gazebo": 19,
+        "Flightmare": 0,
+        "AirSim": 3,
+        "Isaac Sim": 7946,
+        "Microsoft AirSim": 3638,
+        "NVIDIA Isaac Sim": 11
+      },
+      "uav_software_popularities": {
+        "PX4": 1440,
+        "ArduPilot": 1439,
+        "BetaFlight": 1439,
+        "INAV": 1442
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 1458,
+        "Flightmare": 1439,
+        "AirSim": 1442,
+        "Isaac Sim": 17,
+        "Microsoft AirSim": 5,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2008": {
+      "software_popularities": {
+        "PX4": 4,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 2
+      },
+      "sim_popularities": {
+        "Gazebo": 14,
+        "Flightmare": 0,
+        "AirSim": 2,
+        "Isaac Sim": 8769,
+        "Microsoft AirSim": 3979,
+        "NVIDIA Isaac Sim": 8
+      },
+      "uav_software_popularities": {
+        "PX4": 1470,
+        "ArduPilot": 1466,
+        "BetaFlight": 1466,
+        "INAV": 1468
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 1480,
+        "Flightmare": 1466,
+        "AirSim": 1468,
+        "Isaac Sim": 15,
+        "Microsoft AirSim": 3,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2009": {
+      "software_popularities": {
+        "PX4": 4,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 2
+      },
+      "sim_popularities": {
+        "Gazebo": 17,
+        "Flightmare": 0,
+        "AirSim": 3,
+        "Isaac Sim": 9135,
+        "Microsoft AirSim": 4274,
+        "NVIDIA Isaac Sim": 8
+      },
+      "uav_software_popularities": {
+        "PX4": 1618,
+        "ArduPilot": 1615,
+        "BetaFlight": 1614,
+        "INAV": 1616
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 1631,
+        "Flightmare": 1614,
+        "AirSim": 1617,
+        "Isaac Sim": 16,
+        "Microsoft AirSim": 0,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2010": {
+      "software_popularities": {
+        "PX4": 2,
+        "ArduPilot": 0,
+        "BetaFlight": 0,
+        "INAV": 10
+      },
+      "sim_popularities": {
+        "Gazebo": 24,
+        "Flightmare": 0,
+        "AirSim": 2,
+        "Isaac Sim": 9882,
+        "Microsoft AirSim": 5401,
+        "NVIDIA Isaac Sim": 15
+      },
+      "uav_software_popularities": {
+        "PX4": 1778,
+        "ArduPilot": 1777,
+        "BetaFlight": 1777,
+        "INAV": 1787
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 1800,
+        "Flightmare": 1777,
+        "AirSim": 1779,
+        "Isaac Sim": 20,
+        "Microsoft AirSim": 1,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2011": {
+      "software_popularities": {
+        "PX4": 2,
+        "ArduPilot": 5,
+        "BetaFlight": 0,
+        "INAV": 4
+      },
+      "sim_popularities": {
+        "Gazebo": 23,
+        "Flightmare": 0,
+        "AirSim": 1,
+        "Isaac Sim": 10883,
+        "Microsoft AirSim": 6288,
+        "NVIDIA Isaac Sim": 13
+      },
+      "uav_software_popularities": {
+        "PX4": 2183,
+        "ArduPilot": 2182,
+        "BetaFlight": 2181,
+        "INAV": 2185
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 2204,
+        "Flightmare": 2181,
+        "AirSim": 2182,
+        "Isaac Sim": 18,
+        "Microsoft AirSim": 5,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2012": {
+      "software_popularities": {
+        "PX4": 3,
+        "ArduPilot": 10,
+        "BetaFlight": 0,
+        "INAV": 7
+      },
+      "sim_popularities": {
+        "Gazebo": 30,
+        "Flightmare": 0,
+        "AirSim": 4,
+        "Isaac Sim": 11990,
+        "Microsoft AirSim": 5880,
+        "NVIDIA Isaac Sim": 10
+      },
+      "uav_software_popularities": {
+        "PX4": 2656,
+        "ArduPilot": 2655,
+        "BetaFlight": 2653,
+        "INAV": 2660
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 2682,
+        "Flightmare": 2653,
+        "AirSim": 2657,
+        "Isaac Sim": 16,
+        "Microsoft AirSim": 5,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2013": {
+      "software_popularities": {
+        "PX4": 3,
+        "ArduPilot": 18,
+        "BetaFlight": 0,
+        "INAV": 6
+      },
+      "sim_popularities": {
+        "Gazebo": 41,
+        "Flightmare": 0,
+        "AirSim": 4,
+        "Isaac Sim": 13268,
+        "Microsoft AirSim": 6605,
+        "NVIDIA Isaac Sim": 9
+      },
+      "uav_software_popularities": {
+        "PX4": 3166,
+        "ArduPilot": 3170,
+        "BetaFlight": 3163,
+        "INAV": 3169
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 3204,
+        "Flightmare": 3163,
+        "AirSim": 3167,
+        "Isaac Sim": 19,
+        "Microsoft AirSim": 6,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2014": {
+      "software_popularities": {
+        "PX4": 6,
+        "ArduPilot": 16,
+        "BetaFlight": 0,
+        "INAV": 1
+      },
+      "sim_popularities": {
+        "Gazebo": 83,
+        "Flightmare": 0,
+        "AirSim": 8,
+        "Isaac Sim": 14425,
+        "Microsoft AirSim": 6838,
+        "NVIDIA Isaac Sim": 14
+      },
+      "uav_software_popularities": {
+        "PX4": 3631,
+        "ArduPilot": 3635,
+        "BetaFlight": 3626,
+        "INAV": 3627
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 3708,
+        "Flightmare": 3626,
+        "AirSim": 3634,
+        "Isaac Sim": 12,
+        "Microsoft AirSim": 12,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2015": {
+      "software_popularities": {
+        "PX4": 9,
+        "ArduPilot": 21,
+        "BetaFlight": 0,
+        "INAV": 11
+      },
+      "sim_popularities": {
+        "Gazebo": 99,
+        "Flightmare": 0,
+        "AirSim": 2,
+        "Isaac Sim": 15444,
+        "Microsoft AirSim": 6921,
+        "NVIDIA Isaac Sim": 15
+      },
+      "uav_software_popularities": {
+        "PX4": 4314,
+        "ArduPilot": 4318,
+        "BetaFlight": 4308,
+        "INAV": 4319
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 4401,
+        "Flightmare": 4308,
+        "AirSim": 4310,
+        "Isaac Sim": 18,
+        "Microsoft AirSim": 8,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2016": {
+      "software_popularities": {
+        "PX4": 5,
+        "ArduPilot": 14,
+        "BetaFlight": 0,
+        "INAV": 5
+      },
+      "sim_popularities": {
+        "Gazebo": 123,
+        "Flightmare": 0,
+        "AirSim": 0,
+        "Isaac Sim": 16338,
+        "Microsoft AirSim": 7136,
+        "NVIDIA Isaac Sim": 24
+      },
+      "uav_software_popularities": {
+        "PX4": 4926,
+        "ArduPilot": 4930,
+        "BetaFlight": 4924,
+        "INAV": 4929
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 5037,
+        "Flightmare": 4924,
+        "AirSim": 4924,
+        "Isaac Sim": 24,
+        "Microsoft AirSim": 9,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2017": {
+      "software_popularities": {
+        "PX4": 23,
+        "ArduPilot": 20,
+        "BetaFlight": 1,
+        "INAV": 8
+      },
+      "sim_popularities": {
+        "Gazebo": 165,
+        "Flightmare": 0,
+        "AirSim": 5,
+        "Isaac Sim": 16815,
+        "Microsoft AirSim": 7118,
+        "NVIDIA Isaac Sim": 18
+      },
+      "uav_software_popularities": {
+        "PX4": 5771,
+        "ArduPilot": 5768,
+        "BetaFlight": 5757,
+        "INAV": 5764
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 5896,
+        "Flightmare": 5756,
+        "AirSim": 5759,
+        "Isaac Sim": 27,
+        "Microsoft AirSim": 6,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2018": {
+      "software_popularities": {
+        "PX4": 15,
+        "ArduPilot": 28,
+        "BetaFlight": 1,
+        "INAV": 6
+      },
+      "sim_popularities": {
+        "Gazebo": 251,
+        "Flightmare": 0,
+        "AirSim": 20,
+        "Isaac Sim": 17429,
+        "Microsoft AirSim": 7523,
+        "NVIDIA Isaac Sim": 23
+      },
+      "uav_software_popularities": {
+        "PX4": 7297,
+        "ArduPilot": 7301,
+        "BetaFlight": 7290,
+        "INAV": 7295
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 7508,
+        "Flightmare": 7289,
+        "AirSim": 7302,
+        "Isaac Sim": 26,
+        "Microsoft AirSim": 18,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2019": {
+      "software_popularities": {
+        "PX4": 25,
+        "ArduPilot": 37,
+        "BetaFlight": 0,
+        "INAV": 9
+      },
+      "sim_popularities": {
+        "Gazebo": 295,
+        "Flightmare": 0,
+        "AirSim": 27,
+        "Isaac Sim": 18188,
+        "Microsoft AirSim": 7851,
+        "NVIDIA Isaac Sim": 27
+      },
+      "uav_software_popularities": {
+        "PX4": 8466,
+        "ArduPilot": 8473,
+        "BetaFlight": 8450,
+        "INAV": 8458
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 8703,
+        "Flightmare": 8450,
+        "AirSim": 8471,
+        "Isaac Sim": 36,
+        "Microsoft AirSim": 14,
+        "NVIDIA Isaac Sim": 1
+      }
+    },
+    "2020": {
+      "software_popularities": {
+        "PX4": 44,
+        "ArduPilot": 35,
+        "BetaFlight": 4,
+        "INAV": 8
+      },
+      "sim_popularities": {
+        "Gazebo": 333,
+        "Flightmare": 1,
+        "AirSim": 34,
+        "Isaac Sim": 18804,
+        "Microsoft AirSim": 7664,
+        "NVIDIA Isaac Sim": 24
+      },
+      "uav_software_popularities": {
+        "PX4": 9155,
+        "ArduPilot": 9153,
+        "BetaFlight": 9126,
+        "INAV": 9129
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 9407,
+        "Flightmare": 9127,
+        "AirSim": 9146,
+        "Isaac Sim": 22,
+        "Microsoft AirSim": 23,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2021": {
+      "software_popularities": {
+        "PX4": 54,
+        "ArduPilot": 37,
+        "BetaFlight": 3,
+        "INAV": 9
+      },
+      "sim_popularities": {
+        "Gazebo": 382,
+        "Flightmare": 0,
+        "AirSim": 52,
+        "Isaac Sim": 16637,
+        "Microsoft AirSim": 7802,
+        "NVIDIA Isaac Sim": 36
+      },
+      "uav_software_popularities": {
+        "PX4": 10011,
+        "ArduPilot": 10002,
+        "BetaFlight": 9985,
+        "INAV": 9989
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 10304,
+        "Flightmare": 9983,
+        "AirSim": 10018,
+        "Isaac Sim": 50,
+        "Microsoft AirSim": 30,
+        "NVIDIA Isaac Sim": 0
+      }
+    },
+    "2022": {
+      "software_popularities": {
+        "PX4": 47,
+        "ArduPilot": 27,
+        "BetaFlight": 0,
+        "INAV": 7
+      },
+      "sim_popularities": {
+        "Gazebo": 421,
+        "Flightmare": 2,
+        "AirSim": 49,
+        "Isaac Sim": 15853,
+        "Microsoft AirSim": 7771,
+        "NVIDIA Isaac Sim": 58
+      },
+      "uav_software_popularities": {
+        "PX4": 10526,
+        "ArduPilot": 10512,
+        "BetaFlight": 10498,
+        "INAV": 10503
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 10853,
+        "Flightmare": 10489,
+        "AirSim": 10527,
+        "Isaac Sim": 63,
+        "Microsoft AirSim": 25,
+        "NVIDIA Isaac Sim": 5
+      }
+    },
+    "2023": {
+      "software_popularities": {
+        "PX4": 48,
+        "ArduPilot": 34,
+        "BetaFlight": 5,
+        "INAV": 5
+      },
+      "sim_popularities": {
+        "Gazebo": 428,
+        "Flightmare": 0,
+        "AirSim": 67,
+        "Isaac Sim": 16994,
+        "Microsoft AirSim": 8484,
+        "NVIDIA Isaac Sim": 60
+      },
+      "uav_software_popularities": {
+        "PX4": 12513,
+        "ArduPilot": 12504,
+        "BetaFlight": 12490,
+        "INAV": 12493
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 12849,
+        "Flightmare": 12489,
+        "AirSim": 12528,
+        "Isaac Sim": 80,
+        "Microsoft AirSim": 38,
+        "NVIDIA Isaac Sim": 12
+      }
+    },
+    "2024": {
+      "software_popularities": {
+        "PX4": 70,
+        "ArduPilot": 41,
+        "BetaFlight": 1,
+        "INAV": 11
+      },
+      "sim_popularities": {
+        "Gazebo": 435,
+        "Flightmare": 1,
+        "AirSim": 78,
+        "Isaac Sim": 18719,
+        "Microsoft AirSim": 8623,
+        "NVIDIA Isaac Sim": 87
+      },
+      "uav_software_popularities": {
+        "PX4": 14317,
+        "ArduPilot": 14311,
+        "BetaFlight": 14288,
+        "INAV": 14298
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 14655,
+        "Flightmare": 14287,
+        "AirSim": 14329,
+        "Isaac Sim": 109,
+        "Microsoft AirSim": 47,
+        "NVIDIA Isaac Sim": 20
+      }
+    },
+    "2025": {
+      "software_popularities": {
+        "PX4": 20,
+        "ArduPilot": 7,
+        "BetaFlight": 2,
+        "INAV": 6
+      },
+      "sim_popularities": {
+        "Gazebo": 115,
+        "Flightmare": 1,
+        "AirSim": 18,
+        "Isaac Sim": 6195,
+        "Microsoft AirSim": 2245,
+        "NVIDIA Isaac Sim": 36
+      },
+      "uav_software_popularities": {
+        "PX4": 4057,
+        "ArduPilot": 4052,
+        "BetaFlight": 4050,
+        "INAV": 4054
+      },
+      "uav_sim_popularities": {
+        "Gazebo": 4151,
+        "Flightmare": 4048,
+        "AirSim": 4057,
+        "Isaac Sim": 41,
+        "Microsoft AirSim": 12,
+        "NVIDIA Isaac Sim": 7
+      }
+    }
+  }
+}
