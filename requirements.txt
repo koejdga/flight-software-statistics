@@ -1,0 +1,14 @@
+beautifulsoup4==4.12.3
+dotenv==0.9.9
+matplotlib==3.10.0
+matplotlib-inline==0.1.7
+numpy==2.2.1
+packaging==24.2
+pandas==2.2.3
+parso==0.8.4
+pyparsing==3.2.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
+requests==2.32.3
+seaborn==0.13.2
+serpapi==0.1.5
