@@ -1,0 +1,14 @@
+{
+    "release_year": {
+        "PX4": 2012,
+        "BetaFlight": 2015,
+        "ArduPilot": 2009,
+        "INAV": 2016,
+        "Gazebo": 2002,
+        "Flightmare": 2020,
+        "AirSim": 2017,
+        "Isaac Sim": 2023,
+        "Microsoft AirSim": 2017,
+        "NVIDIA Isaac Sim": 2023
+    }
+}

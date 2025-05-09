@@ -60,6 +60,8 @@ class YearsVisualization:
         kjdfnvjv
     folder_to_save_plots : str
         kjvdfhvdjhfbvdjhfb
+    release_years : object
+        a dictionary with keys being names of simulators or flight software and values being the first release years
 
     Methods
     -------
@@ -90,6 +92,8 @@ class YearsVisualization:
             semantic_scholar_data = json.load(f)
             self.semantic_scholar_data = semantic_scholar_data["data"]
 
+        self.__parse_supplementary_data()
+
         self.years = list(self.google_scholar_data.keys())
         first_year = self.years[0]
         self.softwares = self.google_scholar_data[first_year][
@@ -106,12 +110,32 @@ class YearsVisualization:
             )
             pass
 
+    def __parse_supplementary_data(self):
+        try:
+            with open(os.getenv("SUPPLEMENTARY_DATA")) as f:
+                data = json.load(f)
+                self.release_years = data["release_year"]
+        except:
+            pass
+
     def __get_key_name(self, is_software: bool, with_uav: bool):
         # helper method to define required key name to get required statistics
         soft_key_name = ("uav_" if with_uav else "") + "software_popularities"
         sim_key_name = ("uav_" if with_uav else "") + "sim_popularities"
 
         return soft_key_name if is_software else sim_key_name
+
+    def __add_release_year_line(self, name: str):
+        # adds a vertical line which represents the first release date of the product to which the graph is devoted
+        if self.release_years and name in self.release_years.keys():
+            publication_year = self.release_years[name]
+            initial_year = int(self.years[0])
+            plt.axvline(
+                x=publication_year - initial_year,
+                color="r",
+                linestyle="--",
+                label="Release year",
+            )
 
     def popularities_by_years_plot(
         self,
@@ -133,6 +157,7 @@ class YearsVisualization:
         plt.figure(figsize=(8, 5))
         plt.xticks(np.arange(len(self.years)), self.years, rotation=45)
         plt.plot(self.years, popularities, label=label)
+        self.__add_release_year_line(name)
         plt.title(title)
         plt.legend()
 
@@ -167,7 +192,7 @@ class YearsVisualization:
         # and another one shows the amount of papers at Semantic Scholar
 
         key_name = self.__get_key_name(is_software, with_uav)
-        title = f"{name} {" UAV" if with_uav else ""} Over Years"
+        title = f"{name}{" UAV" if with_uav else ""} Over Years"
 
         google_popularities = list(
             map(
@@ -186,6 +211,7 @@ class YearsVisualization:
         plt.xticks(np.arange(len(self.years)), self.years, rotation=45)
         plt.plot(self.years, google_popularities, label="Google Scholar")
         plt.plot(self.years, semantic_popularities, label="Semantic Scholar")
+        self.__add_release_year_line(name)
         plt.title(title)
         plt.legend()
 
@@ -231,6 +257,3 @@ if __name__ == "__main__":
     vis.compare_all_google_semantic(is_software=True, with_uav=True)
     vis.compare_all_google_semantic(is_software=False, with_uav=False)
     vis.compare_all_google_semantic(is_software=False, with_uav=True)
-
-# Google Scholar NVIDIA Isaac Sim from 2010 till 2025
-# remove extra backspace
