@@ -58,7 +58,7 @@
         "AirSim": 0,
         "Isaac Sim": 9,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 2
       }
     },
     "2002": {
@@ -88,7 +88,7 @@
         "AirSim": 0,
         "Isaac Sim": 15,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 3
       }
     },
     "2003": {
@@ -118,7 +118,7 @@
         "AirSim": 1,
         "Isaac Sim": 10,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 5
       }
     },
     "2004": {
@@ -148,7 +148,7 @@
         "AirSim": 0,
         "Isaac Sim": 27,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 6
       }
     },
     "2005": {
@@ -178,7 +178,7 @@
         "AirSim": 0,
         "Isaac Sim": 23,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 6
       }
     },
     "2006": {
@@ -208,7 +208,7 @@
         "AirSim": 0,
         "Isaac Sim": 19,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 4
       }
     },
     "2007": {
@@ -238,7 +238,7 @@
         "AirSim": 0,
         "Isaac Sim": 37,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 13
       }
     },
     "2008": {
@@ -268,7 +268,7 @@
         "AirSim": 0,
         "Isaac Sim": 29,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 21
       }
     },
     "2009": {
@@ -298,7 +298,7 @@
         "AirSim": 0,
         "Isaac Sim": 42,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 20
       }
     },
     "2010": {
@@ -328,7 +328,7 @@
         "AirSim": 0,
         "Isaac Sim": 42,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 26
       }
     },
     "2011": {
@@ -344,7 +344,7 @@
         "AirSim": 25,
         "Isaac Sim": 7110,
         "Microsoft AirSim": 5,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 38
       },
       "uav_software_popularities": {
         "PX4": 5,
@@ -358,7 +358,7 @@
         "AirSim": 0,
         "Isaac Sim": 36,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 38
       }
     },
     "2012": {
@@ -374,7 +374,7 @@
         "AirSim": 43,
         "Isaac Sim": 7130,
         "Microsoft AirSim": 2,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 33
       },
       "uav_software_popularities": {
         "PX4": 1,
@@ -388,7 +388,7 @@
         "AirSim": 0,
         "Isaac Sim": 54,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 33
       }
     },
     "2013": {
@@ -404,7 +404,7 @@
         "AirSim": 40,
         "Isaac Sim": 7510,
         "Microsoft AirSim": 2,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 40
       },
       "uav_software_popularities": {
         "PX4": 15,
@@ -418,7 +418,7 @@
         "AirSim": 2,
         "Isaac Sim": 62,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 40
       }
     },
     "2014": {
@@ -434,7 +434,7 @@
         "AirSim": 53,
         "Isaac Sim": 7970,
         "Microsoft AirSim": 5,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 40
       },
       "uav_software_popularities": {
         "PX4": 69,
@@ -448,7 +448,7 @@
         "AirSim": 2,
         "Isaac Sim": 67,
         "Microsoft AirSim": 2,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 40
       }
     },
     "2015": {
@@ -464,7 +464,7 @@
         "AirSim": 44,
         "Isaac Sim": 8360,
         "Microsoft AirSim": 3,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 50
       },
       "uav_software_popularities": {
         "PX4": 152,
@@ -478,7 +478,7 @@
         "AirSim": 0,
         "Isaac Sim": 86,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 50
       }
     },
     "2016": {
@@ -494,7 +494,7 @@
         "AirSim": 50,
         "Isaac Sim": 8570,
         "Microsoft AirSim": 3,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 53
       },
       "uav_software_popularities": {
         "PX4": 184,
@@ -508,7 +508,7 @@
         "AirSim": 1,
         "Isaac Sim": 62,
         "Microsoft AirSim": 0,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 53
       }
     },
     "2017": {
@@ -524,7 +524,7 @@
         "AirSim": 75,
         "Isaac Sim": 9030,
         "Microsoft AirSim": 22,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 93
       },
       "uav_software_popularities": {
         "PX4": 335,
@@ -538,7 +538,7 @@
         "AirSim": 10,
         "Isaac Sim": 78,
         "Microsoft AirSim": 8,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 93
       }
     },
     "2018": {
@@ -554,7 +554,7 @@
         "AirSim": 230,
         "Isaac Sim": 9600,
         "Microsoft AirSim": 113,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 119
       },
       "uav_software_popularities": {
         "PX4": 459,
@@ -568,7 +568,7 @@
         "AirSim": 84,
         "Isaac Sim": 115,
         "Microsoft AirSim": 49,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 119
       }
     },
     "2019": {
@@ -584,7 +584,7 @@
         "AirSim": 398,
         "Isaac Sim": 10200,
         "Microsoft AirSim": 192,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 162
       },
       "uav_software_popularities": {
         "PX4": 610,
@@ -598,7 +598,7 @@
         "AirSim": 168,
         "Isaac Sim": 92,
         "Microsoft AirSim": 102,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 162
       }
     },
     "2020": {
@@ -614,7 +614,7 @@
         "AirSim": 528,
         "Isaac Sim": 10700,
         "Microsoft AirSim": 225,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 224
       },
       "uav_software_popularities": {
         "PX4": 725,
@@ -628,7 +628,7 @@
         "AirSim": 233,
         "Isaac Sim": 160,
         "Microsoft AirSim": 122,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 224
       }
     },
     "2021": {
@@ -644,7 +644,7 @@
         "AirSim": 740,
         "Isaac Sim": 11600,
         "Microsoft AirSim": 297,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 372
       },
       "uav_software_popularities": {
         "PX4": 914,
@@ -658,7 +658,7 @@
         "AirSim": 373,
         "Isaac Sim": 155,
         "Microsoft AirSim": 166,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 372
       }
     },
     "2022": {
@@ -674,7 +674,7 @@
         "AirSim": 846,
         "Isaac Sim": 12200,
         "Microsoft AirSim": 330,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 539
       },
       "uav_software_popularities": {
         "PX4": 1010,
@@ -688,7 +688,7 @@
         "AirSim": 459,
         "Isaac Sim": 204,
         "Microsoft AirSim": 203,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 539
       }
     },
     "2023": {
@@ -704,7 +704,7 @@
         "AirSim": 959,
         "Isaac Sim": 12500,
         "Microsoft AirSim": 355,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 887
       },
       "uav_software_popularities": {
         "PX4": 1170,
@@ -718,7 +718,7 @@
         "AirSim": 596,
         "Isaac Sim": 282,
         "Microsoft AirSim": 248,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 887
       }
     },
     "2024": {
@@ -734,7 +734,7 @@
         "AirSim": 1150,
         "Isaac Sim": 13700,
         "Microsoft AirSim": 349,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 1500
       },
       "uav_software_popularities": {
         "PX4": 1360,
@@ -748,7 +748,7 @@
         "AirSim": 724,
         "Isaac Sim": 335,
         "Microsoft AirSim": 244,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 1500
       }
     },
     "2025": {
@@ -764,7 +764,7 @@
         "AirSim": 346,
         "Isaac Sim": 3440,
         "Microsoft AirSim": 113,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 567
       },
       "uav_software_popularities": {
         "PX4": 360,
@@ -778,7 +778,7 @@
         "AirSim": 212,
         "Isaac Sim": 110,
         "Microsoft AirSim": 80,
-        "NVIDIA Isaac Sim": 0
+        "NVIDIA Isaac Sim": 567
       }
     }
   }
