@@ -1,0 +1,3 @@
+GOOGLE_SCHOLAR_BY_YEARS = /Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/statistics flight software/output/statistics/flight_soft_sims_data_2025-05-06_23-04-31.json
+SEMANTIC_SCHOLAR_BY_YEARS = /Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/statistics flight software/output/statistics/flight_soft_sims_data_2025-05-06_12-06-51.json
+SAVE_GRAPHS_BASE_FOLDERNAME = /Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/statistics flight software/output/visualizations/graphs
