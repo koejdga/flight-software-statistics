@@ -239,7 +239,7 @@ class YearsVisualization:
     def all_sims_together(self, from_google: bool, is_software: bool, with_uav: bool):
         dict = self.google_scholar_data if from_google else self.semantic_scholar_data
         key_name = self.__get_key_name(is_software, with_uav)
-        title = f"All {"Fligh Control Software" if is_software else "Simulators"}{" UAV" if with_uav else ""} Over Years, {"Google Scholar" if from_google else "Semantic Scholar"}"
+        title = f"All {"Flight Control Software" if is_software else "Simulators"}{" UAV" if with_uav else ""} Over Years, {"Google Scholar" if from_google else "Semantic Scholar"}"
 
         plt.figure(figsize=(8, 5))
         plt.xticks(np.arange(len(self.years)), self.years, rotation=45)
