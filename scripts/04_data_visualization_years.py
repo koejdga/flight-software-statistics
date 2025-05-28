@@ -236,6 +236,33 @@ class YearsVisualization:
                     sim, is_software=False, with_uav=with_uav
                 )
 
+    def all_sims_together(self, from_google: bool, is_software: bool, with_uav: bool):
+        dict = self.google_scholar_data if from_google else self.semantic_scholar_data
+        key_name = self.__get_key_name(is_software, with_uav)
+        title = f"All {"Fligh Control Software" if is_software else "Simulators"}{" UAV" if with_uav else ""} Over Years, {"Google Scholar" if from_google else "Semantic Scholar"}"
+
+        plt.figure(figsize=(8, 5))
+        plt.xticks(np.arange(len(self.years)), self.years, rotation=45)
+
+        if is_software:
+            for soft in self.softwares:
+                popularities = list(map(lambda obj: obj[key_name][soft], dict.values()))
+                plt.plot(self.years, popularities, label=soft)
+        else:
+            for sim in self.sims:
+                popularities = list(map(lambda obj: obj[key_name][sim], dict.values()))
+                plt.plot(self.years, popularities, label=sim)
+
+        plt.title(title)
+        plt.legend()
+
+        folder = f"{self.folder_to_save_plots}/together_over_years"
+        folder += f"/{"software" if is_software else "simulators"}"
+        folder += f"/{"with_uav" if with_uav else "total"}"
+        folder += f"/{"google_scholar" if from_google else "semantic_scholar"}"
+        Path(folder).mkdir(parents=True, exist_ok=True)
+        plt.savefig(f"{folder}/{title}.png")
+
 
 # variations:
 # either simulator or flight software
@@ -257,3 +284,12 @@ if __name__ == "__main__":
     vis.compare_all_google_semantic(is_software=True, with_uav=True)
     vis.compare_all_google_semantic(is_software=False, with_uav=False)
     vis.compare_all_google_semantic(is_software=False, with_uav=True)
+
+    vis.all_sims_together(from_google=True, is_software=True, with_uav=False)
+    vis.all_sims_together(from_google=True, is_software=True, with_uav=True)
+    vis.all_sims_together(from_google=True, is_software=False, with_uav=False)
+    vis.all_sims_together(from_google=True, is_software=False, with_uav=True)
+    vis.all_sims_together(from_google=False, is_software=True, with_uav=False)
+    vis.all_sims_together(from_google=False, is_software=True, with_uav=True)
+    vis.all_sims_together(from_google=False, is_software=False, with_uav=False)
+    vis.all_sims_together(from_google=False, is_software=False, with_uav=True)
